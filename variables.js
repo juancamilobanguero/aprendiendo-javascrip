@@ -15,4 +15,4 @@ var persona = {
 }
 
 // mando a llamar la variable 
-persona
+persona()

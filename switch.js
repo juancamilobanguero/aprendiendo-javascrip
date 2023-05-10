@@ -1,4 +1,4 @@
-let numero = 1;
+let numero = 1000;
 
 switch (numero){
     case 1:

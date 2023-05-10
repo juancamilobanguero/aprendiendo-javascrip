@@ -10,3 +10,4 @@ saludarEstudiantes("estudiante, {i}")
 // for(let estudiante of estudiantes){
 //     saludarEstudiantes(estudiante);
 // }
+saludarEstudiantes();
