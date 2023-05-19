@@ -1,7 +1,7 @@
 let estudiantes = ["camilo", "brenda", "michael", "andres"];
 
 function saludarEstudiantes(estudiante){
-    console.log("Hola, ${estudiante}");
+    console.log(`Hola, ${estudiante}`);
 }
 for(let i = 0; i < estudiantes.length; i++)
 saludarEstudiantes("estudiante, {i}")
