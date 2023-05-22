@@ -11,3 +11,13 @@ saludarEstudiantes("estudiante, {i}")
 //     saludarEstudiantes(estudiante);
 // }
 saludarEstudiantes();
+
+let Empleados = ["camilo","breiner","santiago","ricardo"]
+
+function saludarEmpleados(Empleado){
+    console.log(`Hola, ${Empleado}`);
+}
+for(let i = 0; i < Empleados.length;i++){
+    saludarEmpleados(Empleados,{i});
+}
+saludarEmpleados()

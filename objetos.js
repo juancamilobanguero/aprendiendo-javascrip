@@ -11,28 +11,37 @@ moto()
 
 // fuction construtora
 
-function moto(marca, modelo,año){
-     this.marca = marca;
-     this.año = año;
-     this.modelo = modelo;
-}
-let motoNueva = new moto ("yamaha","Fi","2023")
- 
-//ejercicios con contructora
-function fruta(manzana,perra,uvas){
-     this.manzana = manzana;
-     this.perra = perra;     
-     this.uvas = uvas;
+function celular(samsung,iphone,nokia){
+     this.samsung = samsung;
+     this.iphone = iphone;
+     this.nokia = nokia;
 }
 
-let frutas =[];
-for(let i = 0; i < 2; i++){
-    let manzana = prompt("que frutas deseas");
-    let perra = prompt("la frutas que deseas");
-    let uvas = prompt("ingrese la fruta ");
+let celulares = [];
+for(let i = 0; i <3;i++){
+     let samsung = prompt("ingrese la marca del celular que quiere comprar");
+     let iphone = prompt("cual iphone desea!");
+     let nokia = prompt("cual nokiadeseas!")
 
-    frutas.push(new fruta(manzana,perra,uvas));
+     celulares.push(new celular(samsung,iphone,nokia));
 }
-for(let i = 0; i < frutas.length; i++){
-     console.log(frutas[i]);
+for(let i = 0; i < celulares.length;i++){
+     console.log(celulares[i])
+}
+
+function computador (pantalla,cargador,tatil){
+        this.pantalla = pantalla;
+        this.cargador = cargador;
+        this.tatil = tatil;
+}
+
+let computadors = [];
+for(let i = 0; i <3;i++){
+     let pantalla = prompt("cual pantalla desea!");
+     let cargador = prompt("cual cargador desea!");
+     let tatil = prompt("cual tatil desea!");
+     computadors.push(new computador(pantalla,cargador,tatil));
+}
+for(let i = 0; i < computadors.length;i++){
+     console.log(computadors[i])
 }
